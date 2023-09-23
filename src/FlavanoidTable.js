@@ -30,19 +30,19 @@ const FlavanoidTable = ({ flavanoidData }) => {
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Mean</td>
+                        <td>Flavanoid Mean</td>
                         {classValues.map(classValue => (
                             <td key={classValue}>{tableData[classValue].mean}</td>
                         ))}
                     </tr>
                     <tr>
-                        <td>Median</td>
+                        <td>Flavanoid Median</td>
                         {classValues.map(classValue => (
                             <td key={classValue}>{tableData[classValue].median}</td>
                         ))}
                     </tr>
                     <tr>
-                        <td>Mode</td>
+                        <td>Flavanoid Mode</td>
                         {classValues.map(classValue => (
                             <td key={classValue}>{tableData[classValue].mode}</td>
                         ))}

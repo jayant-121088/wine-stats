@@ -20,7 +20,7 @@ const GammaTable = ({ gammaData }) => {
             <table>
                 <thead>
                     <tr>
-                        <th>Measures</th>
+                        <th>Gamma Measures</th>
                         {classValues.map(classValue => (
                             <th key={classValue}>Class {classValue}</th>
                         ))}
@@ -28,13 +28,13 @@ const GammaTable = ({ gammaData }) => {
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Mean</td>
+                        <td>Gamma Mean</td>
                         {classValues.map(classValue => (
                             <td key={classValue}>{tableData[classValue].mean}</td>
                         ))}
                     </tr>
                     <tr>
-                        <td>Median</td>
+                        <td>Gamma Median</td>
                         {classValues.map(classValue => (
                             <td key={classValue}>{tableData[classValue].median}</td>
                         ))}
