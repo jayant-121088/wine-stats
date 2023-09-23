@@ -11,3 +11,63 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1, h4 {
+  text-align: center;
+}
+
+
+/* Styling for the table */
+table {
+  width: 70%;
+  margin: auto;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+thead th {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 8px;
+}
+
+tbody td {
+  text-align: center;
+  padding: 8px;
+}
+
+/* Alternating row colors for better readability */
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Add some spacing between cells */
+td, th {
+  border: 1px solid #ccc;
+}
+
+/* Styling for header cells */
+th {
+  font-weight: bold;
+}
+
+/* Center-align text in header cells */
+thead th {
+  text-align: center;
+}
+
+/* Add a bit of padding to the first column */
+th:first-child, td:first-child {
+  padding-left: 15px;
+}
+
+/* Style the Measures column with a background color */
+tbody td:first-child {
+  background-color: #e6f7ff;
+  font-weight: bold;
+}
+
+/* Style class cells */
+td:not(:first-child) {
+  background-color: #f7f7f7;
+}
